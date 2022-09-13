@@ -3,9 +3,9 @@ buildscript {
     repositories {
         google()
         mavenCentral()
-        maven {
-            url uri('D:/plugin')
-        }
+//        maven {
+//            url uri('D:/plugin')
+//        }
     }
     dependencies {
         classpath "com.android.tools.build:gradle:4.2.2"
@@ -20,9 +20,9 @@ allprojects {
         google()
         mavenCentral()
         jcenter() // Warning: this repository is going to shut down soon
-        maven {
-            url uri('D:/plugin')
-        }
+//        maven {
+//            url uri('D:/plugin')
+//        }
     }
 }
 
