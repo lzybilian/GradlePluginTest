@@ -1,5 +1,5 @@
 apply plugin: 'groovy'
-apply plugin: 'maven'
+//apply plugin: 'maven'
 
 repositories {
     jcenter()
@@ -16,12 +16,12 @@ dependencies {
     implementation 'com.android.tools.build:gradle:3.5.3'
 }
 
-uploadArchives {
-    repositories.mavenDeployer {
-        repository(url: uri('D:/plugin'))
-        pom.groupId = 'com.hello.plugin'
-        pom.version = '1.0.0'
-        pom.artifactId = 'gradle-plugin-test'
-    }
-}
+//uploadArchives {
+//    repositories.mavenDeployer {
+//        repository(url: uri('D:/plugin'))
+//        pom.groupId = 'com.hello.plugin'
+//        pom.version = '1.0.0'
+//        pom.artifactId = 'gradle-plugin-test'
+//    }
+//}
 
