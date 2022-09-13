@@ -1,0 +1,3 @@
+rootProject.name = "GradlePluginTest"
+include ':app'
+include ':helloplugin'
