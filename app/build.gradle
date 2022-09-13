@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-apply plugin:'helloplugin'
+//apply plugin:'helloplugin'
 
 android {
     compileSdkVersion 29
